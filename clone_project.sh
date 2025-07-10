@@ -1,4 +1,5 @@
 #!/bin/bash
+project=${1}
 project_dir="$(basename https://github.com/kodekloudhub/solar-system-9.git .git)"
 
 clone_project() {
